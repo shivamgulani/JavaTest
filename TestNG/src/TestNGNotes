@@ -1,0 +1,40 @@
+1)TestNG --- Unit test framework
+
+2)Design test cases in a systematic way
+
+3)its open source 
+
+4)java unit test case TesNG and Junit only used with java for each and every language there are seperate 
+testing framework
+
+5)generates good html reports
+
+6)provides lot of annotations
+
+7) various features available like prioritzation dependecy grouping 
+
+8)data provider feature is available , if we need to execute our test case multiple times
+with different set of data 
+
+9) Very good Html Reports
+
+10) TDD- Test driven devlopment along with writing devlopement code we will write our test 
+    cases
+    
+   
+Before Suite method called  
+Before Test Method Called
+Before class method called
+Before Method Called
+Test Method Called
+after Method called
+Before Method Called
+Test 2 Method Called
+after Method called
+This is after class method called
+This is after test method 
+
+Suite>> before test >> before class >> before method >> test1 >> after method >> 
+before method >> test2 >> after method >> after class >> after test
+
+how many test cases are there ??? --> count the number of @test 
