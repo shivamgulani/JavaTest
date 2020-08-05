@@ -39,16 +39,22 @@ public class TestNGBasics {
 		System.out.println("Before Test Method Called");
 	}
 	
-	@Test
+	@Test(groups="TestNGBasics")
 	public void my_test()
 	{
 		System.out.println("Test Method Called");
 	}
 	
-	@Test
+	@Test(groups="TestNGBasics")
 	public void my_test2()
 	{
 		System.out.println("Test 2 Method Called");
+	}
+	
+	@Test(groups="Run")
+	public void my_test3()
+	{
+		System.out.println("Test 3 Method Called");
 	}
 	
 	@AfterMethod

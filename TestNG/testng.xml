@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+<suite name="TestNG Practice" verbose="1" >
+  <test name="TestNG PRactice"   >
+  
+  <groups>
+   	<define name="google">
+      <include name="Test"/>
+      <include name="Google Mail Link"/>     
+      <include name="Run"/>     
+    </define>
+    
+    
+    <define name="dont run">
+    	<include name="TestNGBasics"/>
+      <include name="Google logo"/>     
+    </define>
+
+  <run>
+  <include name="google"/>
+  <exclude name="dont run"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.testpackage.GoogleTest" />
+      <class name="com.testpackage.TestNGBasics" />
+   </classes>
+ </test>
+</suite>
