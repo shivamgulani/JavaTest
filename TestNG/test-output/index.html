@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Shivam Gulani\AppData\Local\Temp\testng-eclipse-864382850\testng-customsuite.xml</span>
+                    <span>C:\Users\Shivam Gulani\AppData\Local\Temp\testng-eclipse-428086343\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.testpackage.TestNGBasics" class="method navigator-link" hash-for-method="my_test">my_test</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.testpackage.GoogleTest" class="method navigator-link" hash-for-method="getGoogleTitle">getGoogleTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.testpackage.TestNGBasics" class="method navigator-link" hash-for-method="my_test2">my_test2</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.testpackage.GoogleTest" class="method navigator-link" hash-for-method="googleLogoTest">googleLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.testpackage.GoogleTest" class="method navigator-link" hash-for-method="googleMailLink">googleMailLink</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -127,21 +132,28 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.testpackage.TestNGBasics</span>
+              <span class="class-name">com.testpackage.GoogleTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="my_test">
-                  </a> <!-- my_test -->
-                  <span class="method-name">my_test</span>
+                  <a name="getGoogleTitle">
+                  </a> <!-- getGoogleTitle -->
+                  <span class="method-name">getGoogleTitle</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="my_test2">
-                  </a> <!-- my_test2 -->
-                  <span class="method-name">my_test2</span>
+                  <a name="googleLogoTest">
+                  </a> <!-- googleLogoTest -->
+                  <span class="method-name">googleLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleMailLink">
+                  </a> <!-- googleMailLink -->
+                  <span class="method-name">googleMailLink</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +161,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Shivam Gulani\AppData\Local\Temp\testng-eclipse-864382850\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Shivam Gulani\AppData\Local\Temp\testng-eclipse-428086343\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -158,7 +170,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.testpackage.TestNGBasics&quot;/&gt;
+      &lt;class name=&quot;com.testpackage.GoogleTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -198,20 +210,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'my_test')
-data.setCell(0, 2, 'com.testpackage.TestNGBasics')
-data.setCell(0, 3, 7);
+data.setCell(0, 1, 'googleLogoTest')
+data.setCell(0, 2, 'com.testpackage.GoogleTest')
+data.setCell(0, 3, 96);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'my_test2')
-data.setCell(1, 2, 'com.testpackage.TestNGBasics')
-data.setCell(1, 3, 4);
+data.setCell(1, 1, 'googleMailLink')
+data.setCell(1, 2, 'com.testpackage.GoogleTest')
+data.setCell(1, 3, 55);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getGoogleTitle')
+data.setCell(2, 2, 'com.testpackage.GoogleTest')
+data.setCell(2, 3, 21);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 ms</span>
+              <span class="suite-total-time">Total running time: 172 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -237,55 +253,43 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.testpackage.TestNGBasics</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">before_suite</span>
+              <div class="chronological-class-name">com.testpackage.GoogleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">set_Up</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-              <div class="configuration-test before">
-                <span class="method-name">before_test</span>
-                <span class="method-start">13 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">before_class</span>
-                <span class="method-start">35 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">before_Method</span>
-                <span class="method-start">48 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">my_test</span>
-                <span class="method-start">50 ms</span>
+                <span class="method-name">getGoogleTitle</span>
+                <span class="method-start">9695 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">after_method</span>
-                <span class="method-start">68 ms</span>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9719 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">before_Method</span>
-                <span class="method-start">71 ms</span>
+                <span class="method-name">set_Up</span>
+                <span class="method-start">10450 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">my_test2</span>
-                <span class="method-start">73 ms</span>
+                <span class="method-name">googleLogoTest</span>
+                <span class="method-start">19462 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">after_method</span>
-                <span class="method-start">81 ms</span>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19560 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">after_class</span>
-                <span class="method-start">87 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-test after">
-                <span class="method-name">after_test</span>
-                <span class="method-start">90 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-suite after">
-                <span class="method-name">after_Suite</span>
-                <span class="method-start">190 ms</span>
-              </div> <!-- configuration-suite after -->
+              <div class="configuration-method before">
+                <span class="method-name">set_Up</span>
+                <span class="method-start">20915 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">googleMailLink</span>
+                <span class="method-start">30095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30153 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

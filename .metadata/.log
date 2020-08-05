@@ -183,3 +183,59 @@ java -ea -classpath C:\eclipse\configuration\org.eclipse.osgi\977\0\.cp\lib\test
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 50085 -protocol json -d F:\Workspace\TestNG\test-output C:\Users\SHIVAM~1\AppData\Local\Temp\testng-eclipse-864382850\testng-customsuite.xml
 java -ea -classpath C:\eclipse\configuration\org.eclipse.osgi\977\0\.cp\lib\testng-remote.jar:F:\Workspace\TestNG\bin:C:\eclipse\plugins\org.testng_7.2.0.r202003151902.jar:C:\eclipse\plugins\com.beust.jcommander_1.72.0.jar:C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar org.testng.remote.RemoteTestNG -serport 50085 -protocol json -d F:\Workspace\TestNG\test-output C:\Users\SHIVAM~1\AppData\Local\Temp\testng-eclipse-864382850\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-08-05 00:11:56.967
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\eclipse\configuration\org.eclipse.osgi\977\0\.cp\lib\testng-remote.jar F:\Workspace\TestNG\bin C:\eclipse\plugins\org.testng_7.2.0.r202003151902.jar C:\eclipse\plugins\com.beust.jcommander_1.72.0.jar C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar F:\development\jars\selenium-server-standalone-3.141.59.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50186 -protocol json -d F:\Workspace\TestNG\test-output C:\Users\SHIVAM~1\AppData\Local\Temp\testng-eclipse--1391286104\testng-customsuite.xml
+java -ea -classpath C:\eclipse\configuration\org.eclipse.osgi\977\0\.cp\lib\testng-remote.jar:F:\Workspace\TestNG\bin:C:\eclipse\plugins\org.testng_7.2.0.r202003151902.jar:C:\eclipse\plugins\com.beust.jcommander_1.72.0.jar:C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar:F:\development\jars\selenium-server-standalone-3.141.59.jar org.testng.remote.RemoteTestNG -serport 50186 -protocol json -d F:\Workspace\TestNG\test-output C:\Users\SHIVAM~1\AppData\Local\Temp\testng-eclipse--1391286104\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-08-05 00:12:48.620
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\eclipse\configuration\org.eclipse.osgi\977\0\.cp\lib\testng-remote.jar F:\Workspace\TestNG\bin C:\eclipse\plugins\org.testng_7.2.0.r202003151902.jar C:\eclipse\plugins\com.beust.jcommander_1.72.0.jar C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar F:\development\jars\selenium-server-standalone-3.141.59.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50194 -protocol json -d F:\Workspace\TestNG\test-output C:\Users\SHIVAM~1\AppData\Local\Temp\testng-eclipse--1037409061\testng-customsuite.xml
+java -ea -classpath C:\eclipse\configuration\org.eclipse.osgi\977\0\.cp\lib\testng-remote.jar:F:\Workspace\TestNG\bin:C:\eclipse\plugins\org.testng_7.2.0.r202003151902.jar:C:\eclipse\plugins\com.beust.jcommander_1.72.0.jar:C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar:F:\development\jars\selenium-server-standalone-3.141.59.jar org.testng.remote.RemoteTestNG -serport 50194 -protocol json -d F:\Workspace\TestNG\test-output C:\Users\SHIVAM~1\AppData\Local\Temp\testng-eclipse--1037409061\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-08-05 00:13:48.891
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\eclipse\configuration\org.eclipse.osgi\977\0\.cp\lib\testng-remote.jar F:\Workspace\TestNG\bin C:\eclipse\plugins\org.testng_7.2.0.r202003151902.jar C:\eclipse\plugins\com.beust.jcommander_1.72.0.jar C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar F:\development\jars\selenium-server-standalone-3.141.59.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50221 -protocol json -d F:\Workspace\TestNG\test-output C:\Users\SHIVAM~1\AppData\Local\Temp\testng-eclipse-2062756369\testng-customsuite.xml
+java -ea -classpath C:\eclipse\configuration\org.eclipse.osgi\977\0\.cp\lib\testng-remote.jar:F:\Workspace\TestNG\bin:C:\eclipse\plugins\org.testng_7.2.0.r202003151902.jar:C:\eclipse\plugins\com.beust.jcommander_1.72.0.jar:C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar:F:\development\jars\selenium-server-standalone-3.141.59.jar org.testng.remote.RemoteTestNG -serport 50221 -protocol json -d F:\Workspace\TestNG\test-output C:\Users\SHIVAM~1\AppData\Local\Temp\testng-eclipse-2062756369\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-08-05 00:14:10.293
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\eclipse\configuration\org.eclipse.osgi\977\0\.cp\lib\testng-remote.jar F:\Workspace\TestNG\bin C:\eclipse\plugins\org.testng_7.2.0.r202003151902.jar C:\eclipse\plugins\com.beust.jcommander_1.72.0.jar C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar F:\development\jars\selenium-server-standalone-3.141.59.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50238 -protocol json -d F:\Workspace\TestNG\test-output C:\Users\SHIVAM~1\AppData\Local\Temp\testng-eclipse-743098290\testng-customsuite.xml
+java -ea -classpath C:\eclipse\configuration\org.eclipse.osgi\977\0\.cp\lib\testng-remote.jar:F:\Workspace\TestNG\bin:C:\eclipse\plugins\org.testng_7.2.0.r202003151902.jar:C:\eclipse\plugins\com.beust.jcommander_1.72.0.jar:C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar:F:\development\jars\selenium-server-standalone-3.141.59.jar org.testng.remote.RemoteTestNG -serport 50238 -protocol json -d F:\Workspace\TestNG\test-output C:\Users\SHIVAM~1\AppData\Local\Temp\testng-eclipse-743098290\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-08-05 00:14:33.852
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\eclipse\configuration\org.eclipse.osgi\977\0\.cp\lib\testng-remote.jar F:\Workspace\TestNG\bin C:\eclipse\plugins\org.testng_7.2.0.r202003151902.jar C:\eclipse\plugins\com.beust.jcommander_1.72.0.jar C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar F:\development\jars\selenium-server-standalone-3.141.59.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50256 -protocol json -d F:\Workspace\TestNG\test-output C:\Users\SHIVAM~1\AppData\Local\Temp\testng-eclipse-706177720\testng-customsuite.xml
+java -ea -classpath C:\eclipse\configuration\org.eclipse.osgi\977\0\.cp\lib\testng-remote.jar:F:\Workspace\TestNG\bin:C:\eclipse\plugins\org.testng_7.2.0.r202003151902.jar:C:\eclipse\plugins\com.beust.jcommander_1.72.0.jar:C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar:F:\development\jars\selenium-server-standalone-3.141.59.jar org.testng.remote.RemoteTestNG -serport 50256 -protocol json -d F:\Workspace\TestNG\test-output C:\Users\SHIVAM~1\AppData\Local\Temp\testng-eclipse-706177720\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-08-05 00:16:35.136
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\eclipse\configuration\org.eclipse.osgi\977\0\.cp\lib\testng-remote.jar F:\Workspace\TestNG\bin C:\eclipse\plugins\org.testng_7.2.0.r202003151902.jar C:\eclipse\plugins\com.beust.jcommander_1.72.0.jar C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar F:\development\jars\selenium-server-standalone-3.141.59.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50332 -protocol json -d F:\Workspace\TestNG\test-output C:\Users\SHIVAM~1\AppData\Local\Temp\testng-eclipse--932282311\testng-customsuite.xml
+java -ea -classpath C:\eclipse\configuration\org.eclipse.osgi\977\0\.cp\lib\testng-remote.jar:F:\Workspace\TestNG\bin:C:\eclipse\plugins\org.testng_7.2.0.r202003151902.jar:C:\eclipse\plugins\com.beust.jcommander_1.72.0.jar:C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar:F:\development\jars\selenium-server-standalone-3.141.59.jar org.testng.remote.RemoteTestNG -serport 50332 -protocol json -d F:\Workspace\TestNG\test-output C:\Users\SHIVAM~1\AppData\Local\Temp\testng-eclipse--932282311\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-08-05 00:45:35.007
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\eclipse\configuration\org.eclipse.osgi\977\0\.cp\lib\testng-remote.jar F:\Workspace\TestNG\bin C:\eclipse\plugins\org.testng_7.2.0.r202003151902.jar C:\eclipse\plugins\com.beust.jcommander_1.72.0.jar C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar F:\development\jars\selenium-server-standalone-3.141.59.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51298 -protocol json -d F:\Workspace\TestNG\test-output C:\Users\SHIVAM~1\AppData\Local\Temp\testng-eclipse-428086343\testng-customsuite.xml
+java -ea -classpath C:\eclipse\configuration\org.eclipse.osgi\977\0\.cp\lib\testng-remote.jar:F:\Workspace\TestNG\bin:C:\eclipse\plugins\org.testng_7.2.0.r202003151902.jar:C:\eclipse\plugins\com.beust.jcommander_1.72.0.jar:C:\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar:F:\development\jars\selenium-server-standalone-3.141.59.jar org.testng.remote.RemoteTestNG -serport 51298 -protocol json -d F:\Workspace\TestNG\test-output C:\Users\SHIVAM~1\AppData\Local\Temp\testng-eclipse-428086343\testng-customsuite.xml
