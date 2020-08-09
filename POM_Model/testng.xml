@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+   <groups>
+   	<define name="google">
+      <include name="google"/>
+    </define>
+    
+    
+    <define name="youtube">
+    	<include name="Youtube"/>
+    </define>
+
+  <run>
+  <include name="youtube"/>
+  <exclude name="google"/>
+  </run>
+  </groups>
+  
+  
+  
+    <classes>
+      <class name="com.testFiles.GoogleHomeSearch"/>
+      <class name="com.testFiles.GoogleSearchTest"/>
+      <class name="com.testFiles.YoutubeUserSignIn"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

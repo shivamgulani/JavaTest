@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="youtube"/>
+        <exclude name="google"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.testFiles.YoutubeUserSignIn">
+        <methods>
+          <include name="setup"/>
+          <include name="Check_user_signed_in"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- com.testFiles.YoutubeUserSignIn -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,8 +1,30 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+  
+  <groups>
+   	<define name="google">
+      <include name="Test"/>
+      <include name="Google Mail Link"/>     
+      <include name="Run"/>     
+    </define>
+    
+    
+    <define name="dont run">
+    	<include name="TestNGBasics"/>
+      <include name="Google logo"/>     
+    </define>
+
+  <run>
+  <include name="google"/>
+  <exclude name="dont run"/>
+  </run>
+  </groups>
+  
+  
     <classes>
-      <class name="com.local.test.DemoSelenium"/>
+      <class name="com.local.test.GoogleHomeSearch"/>
+      <class name="com.local.test.GoogleSearchTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
